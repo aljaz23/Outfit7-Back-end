@@ -47,7 +47,9 @@
 
 5. You can also use phpMyAdmin in URL "http://localhost:8081" Where you can see the database with values.
 
-6. If you want to run this app localy (not on docker) you need to set in application.properties DATABASE_URL=localhost And then configure other properties for database espicially if you dont use MySql.
+
+6. If you want to run this app localy (not on docker) you need to set in application.properties DATABASE_URL=localhost 
+    And then configure other properties for database espicially if you dont use MySql.
 
 
           
