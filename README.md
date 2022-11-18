@@ -34,6 +34,9 @@
             1 PATH VARIABLE (userId)
             Requires username and password for Basic auth which is available only to admins
             Example: http://localhost:8080/user_list/aljaz123
+            
+4. All avaiable values for QUERY PARAMS (timeZone and countryCode) are written in files "AvaiableTimeZones" and "AvaiableCountryCodes"
+
           
       
     
