@@ -9,6 +9,7 @@
 3. There are 2 REST APIS:
 
     POST - Check servcies API
+    
        3 QUERY PARAMS (timeZone, countryCode, userId)
        Requires username and password for Basic auth
                 Example:  http://localhost:8080/user?timeZone=Europe/Ljubljana&countryCode=SL&userId=aljaz123
@@ -18,6 +19,7 @@
     
     
     ADMIN API
+    
         Username (for basic auth)- admin
         Password (for basic auth)- kj98Sch5859/asd
         
