@@ -6,6 +6,9 @@
 2. In the same folder as .yaml in terminal write docker compose up
 
 
+3. All request are already setup in "Outfit7 - backend.postman_collection.json" file, which is imported in POSTMAN where u can make REQUESTS.
+
+
 3. There are 2 REST APIS:
 
     POST - Check servcies API
@@ -41,10 +44,7 @@
 4. All avaiable values for QUERY PARAMS (timeZone and countryCode) are written in files "AvaiableTimeZones" and "AvaiableCountryCodes"
 
 
-5. All request are already setup in "Outfit7 - backend.postman_collection.json" file, which is imported in POSTMAN.
-
-
-6. You can also use phpMyAdmin in URL "http://localhost:8081" Where you can see the database with values.
+5. You can also use phpMyAdmin in URL "http://localhost:8081" Where you can see the database with values.
 
 
           
