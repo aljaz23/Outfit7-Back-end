@@ -44,7 +44,7 @@
 5. All request are already setup in "Outfit7 - backend.postman_collection.json" file, which is imported in POSTMAN.
 
 
-
+6. You can also use phpMyAdmin in URL "http://localhost:8081/" Where you can see the database with values.
 
 
           
