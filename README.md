@@ -37,7 +37,15 @@
             Requires username and password for Basic auth which is available only to admins
             Example: http://localhost:8080/user_list/aljaz123
             
+            
 4. All avaiable values for QUERY PARAMS (timeZone and countryCode) are written in files "AvaiableTimeZones" and "AvaiableCountryCodes"
+
+
+5. All request are already setup in "Outfit7 - backend.postman_collection.json" file, which is imported in POSTMAN.
+
+
+
+
 
           
       
