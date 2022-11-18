@@ -4,7 +4,7 @@
 1. Clone this repository
 
 
-2. In the same folder as .yaml in terminal write docker compose up
+2. In the same folder as .yaml in terminal write `docker compose up`
 
 
 3. All request are already setup in "Outfit7 - backend.postman_collection.json" file, which is imported in POSTMAN where u can make REQUESTS.
