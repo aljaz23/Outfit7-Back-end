@@ -49,7 +49,7 @@
 
 
 6. If you want to run this app localy (not on docker) you need to set in application.properties DATABASE_URL=localhost 
-    And then configure other properties for database espicially if you dont use MySql.
+And then configure other properties for database espicially if you dont use MySql.
 
 
           
