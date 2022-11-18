@@ -1,0 +1,32 @@
+version: "3.0"
+services:
+  database-mysql:
+    image: mysql:8.0.29
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: "root"
+      MYSQL_DATABASE: outfit7
+    volumes:
+      - ./db-data:/var/lib/mysql
+    #ports:
+     # - 3306:3306
+     # - 0.0.0.0:3306:3306
+  rest-api:
+    depends_on:
+      - database-mysql
+    build: .
+    restart: always
+    environment:
+      DATABASE_URL: database-mysql
+    ports:
+      - 8080:8080
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 8081:80
+    environment:
+      - PMA_HOST=database-mysql
+      - PMA_USER=root
+      - PMA_PASSWORD=root
+      - PMA_ARBITRARY=1
