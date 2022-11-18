@@ -16,8 +16,8 @@
        3 QUERY PARAMS (timeZone, countryCode, userId)
        Requires username and password for Basic auth
                 Example:  http://localhost:8080/user?timeZone=Europe/Ljubljana&countryCode=SL&userId=aljaz123
-                Username: fun7user
-                Password: fun/pass
+                Username (for basic auth): fun7user
+                Password:(for basic auth): fun/pass
     
     
     
